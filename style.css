@@ -1,0 +1,71 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(#94FFD8, #66E9FF) no-repeat;
+}
+
+.tm-table-flex{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #66E9FF;
+    border: 1px solid #E798D7;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.tm-table-flex__row{
+    display: flex;
+    flex-direction: row;
+}
+
+.tm-table-flex__cell{
+    padding: 5px 0;
+    margin: 1px;
+    width: 100%;
+    flex: 1 1 auto;
+    text-align: center;
+    border: 2px double #E798D7;
+    background-color: #FAFFFA;
+}
+
+.tm-table-flex__cell:hover {
+    transform-origin: left top;
+    margin-top: -5px;
+    transition: margin-top 130ms;
+    box-shadow: 0 10px 90px rgba(0, 0, 0, 0.4);
+}
+
+.tm-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 30%;
+    height: 50px;
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #FFF1FF;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.tm-elem{
+    margin: 5% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tm-elem-min,
+.tm-elem-max{
+    margin: 5px;
+    padding: 50px 0;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: radial-gradient(circle, #FFF 0%, #FFF1FF 100%);
+}
